@@ -1,0 +1,138 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(images/torshov.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 400px; 
+}
+
+
+.hero-section {
+    color: white; 
+    margin-top: 50px;   
+}
+
+#hero-header {
+    background-color: #457B9D;
+    max-width: 200px; 
+    margin-top: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+#hero-description {
+    background-color: #1D3557;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.activities-section {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    height: 400px;   
+}
+
+.activities-title {
+    padding-top: 40px;
+}
+
+.activities-1-2-3 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
+.activities-1 {
+    width: 200px;
+}
+
+.activities-2 {
+    width: 200px;
+}
+
+.activities-3 {
+    width: 200px;
+}
+
+.img-activities-park {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img-activities-theatre {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img-activities-sports {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.guide-section {
+    background-color: white;
+    color: #1D3557;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+     
+}
+
+.guide-card {
+    background-color: #A8DADC;
+    width: 600px;
+    height: 350px;
+    margin-top: 75px;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-per {
+    width: 215px;
+    height: 300px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border-radius: 10px;
+    
+   
+}
+
+#guide-info {
+    margin-top: 50px;
+    padding-right: 100px;
+
+}
+
+#guide-text {
+    font-style: italic;
+    font-size: 1.15rem;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#guide-name {
+    margin-top: 20px;
+}
