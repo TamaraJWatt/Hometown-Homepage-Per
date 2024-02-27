@@ -95,9 +95,8 @@ body {
 .guide-section {
     color: #1D3557;
     display: flex;
-    height: 500px;
     justify-content: center;
-     
+    padding-bottom: 75px; 
 }
 
 .guide-card {
@@ -117,14 +116,11 @@ body {
     margin-top: 25px;
     margin-left: 25px;
     border-radius: 10px;
-    
-   
 }
 
 #guide-info {
     margin-top: 50px;
     padding-right: 100px;
-
 }
 
 #guide-text {
